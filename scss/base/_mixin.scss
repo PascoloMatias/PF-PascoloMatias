@@ -1,0 +1,17 @@
+
+
+@mixin titulo-uno{
+  color: whitesmoke;
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  text-align: left;
+  max-width: 100%;
+  border-bottom-style: solid;
+  border-block-width: 0.1rem;
+  line-height: 1.25rem;
+  padding-bottom: 1.2rem;
+  font-size: 1.2rem;
+  overflow-wrap: break-word;
+
+}

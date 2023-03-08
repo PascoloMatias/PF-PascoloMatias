@@ -1,0 +1,39 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  //IMPORT de cada HTML
+
+  @import "paginas/inicio";
+  @import "paginas/ubicacion";
+  @import "paginas/contacto";
+  @import "paginas/nosotros";
+  @import "paginas/productos";
+
+//NESTING HEADER
+
+header{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.7rem;
+  align-items: center;
+  nav{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    text-decoration: none;
+    ul{
+      li{
+        font-weight: bold;
+      }
+    }
+  }
+}
+

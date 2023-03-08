@@ -1,0 +1,71 @@
+
+@import "../base/variables";
+
+/* estilo Ubicacion */
+
+
+/* CELULARES UBICACION*/
+@media screen and (max-width: 600px){
+    .encabezado{
+      display: block;
+      margin: 0.7rem;
+    }
+  
+    .ubicacion{
+      display: block;
+      display: flex;
+      margin: 1rem;
+      padding: 1rem;
+    }
+  
+    .indicacion{
+      color: $color-gris-parrafos;
+      margin: 1rem;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .pie-pagina{
+      color: whitesmoke;
+      display: block;
+      margin: 1rem;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    
+  
+    
+  }
+
+  /* TABLETS UBICACION*/
+@media screen and (min-width: 600px){
+    .encabezado{
+      display: block;
+      margin: 0.7rem;
+      padding: 0.7rem;
+    }
+  
+    .ubicacion{
+      display: flex;
+      margin: 1rem;
+      padding: 1rem;
+      justify-content: center;
+    }
+  
+    .indicacion{
+      color: $color-gris-parrafos;
+      margin: 1rem;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .pie-pagina{
+      color: whitesmoke;
+      display: block;
+      margin: 1rem;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+  }

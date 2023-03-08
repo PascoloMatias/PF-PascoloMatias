@@ -1,0 +1,117 @@
+/* Estilos Productos Celular */
+.titulo-productos{
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+    grid-gap:0.8rem;
+  }
+  
+  .gallery-item{
+    position: relative;
+  }
+  
+  .gallery-title{
+    text-align: center;
+    color: rgb(164, 164, 164);
+    border-bottom-style: solid;
+    border-block-width: 0.1rem;
+    line-height: 1.25r
+    
+  
+  }
+  
+  .gallery-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .gallery-item:nth-child(1){
+    grid-column-start: span 2;
+  }
+  
+  .gallery-item:nth-child(4){
+    grid-column-start: span 2;
+  }
+  .gallery-item:nth-child(5){
+    grid-column-start: span 2;
+  }
+
+  /* Tamaño Tablet */
+
+@media (min-width:600px){
+    .gallery-container{
+      grid-template-columns: repeat(4, 1fr)
+    }
+  
+  
+    .gallery-item:nth-child(7){
+    grid-column-start: span 2;
+  }
+  
+  .gallery-item:nth-child(4){
+    grid-column-start: span 4;
+  }
+  .gallery-item:nth-child(6){
+    grid-column-start: span 2;
+  }
+  
+  }
+
+  /* tamaño computadora */
+
+@media (min-width:1024px){
+    .gallery-container{
+      grid-template-columns: repeat(5, 1fr);
+      width: 90%;
+      margin: auto;
+    }
+  
+    .gallery-item:nth-child(1){
+      grid-column-start: span 3;
+       
+    }
+    .gallery-item:nth-child(2){
+      grid-column-start: span 2;
+       
+    }
+  
+    .gallery-item:nth-child(4){
+      grid-column-start: span 3;
+      
+    }
+  
+    .gallery-item:nth-child(3){
+      grid-column-start: span 2;
+      
+    }
+  
+  
+    .gallery-item:nth-child(6){
+      grid-column-start: span 2;
+      
+    }
+  
+    .gallery-item:nth-child(5){
+      grid-column-start: span 3;
+      
+    }
+  
+    .gallery-item:nth-child(3){
+      grid-column-start: span 2;
+      
+    }
+    .gallery-item:nth-child(8){
+      grid-column-start: span 2;
+      
+    }
+  
+    
+  }
+  
+

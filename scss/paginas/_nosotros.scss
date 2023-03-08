@@ -1,0 +1,48 @@
+
+@import "../base/variables";
+@import "../base/mixin";
+
+
+/* Pagina de Nosotros */
+
+@media (min-width: 350px){
+    .titulo-uno{
+      width: 70%;
+    }
+  }
+  
+  @media (min-width: 600px){
+  .titulo-uno{
+    width: 66%;
+  }
+  }
+  
+  @media (min-width: 992px){
+    .titulo-uno{
+      width:50%;
+    }
+  }
+  
+  
+  
+  .contenedor-main{
+    margin: $medida-contenedor-main;
+    padding: $medida-contenedor-main;
+    display: flex;
+  }
+  
+  .contenedor-main h1{
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    padding: 4px 10px;
+  }
+  
+  .titulo-uno h4{
+    @include titulo-uno;
+  }
+  
+  .titulo-uno p{
+    text-align: left;
+    display: block;
+  }
+
